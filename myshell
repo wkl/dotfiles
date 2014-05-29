@@ -1,0 +1,17 @@
+# git alias
+alias ga='git add'
+alias gc='git commit -v'
+alias gca='git commit -v -a'
+alias gst='git status'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gco='git checkout'
+alias gb='git branch'
+alias glo='git log --oneline --decorate --color'
+alias glog='git log --oneline --decorate --color --graph'
+
+# dir alias
+alias ..='cd ..'
+
+# env variables
+export EDITOR=vim
