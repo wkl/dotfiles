@@ -13,5 +13,8 @@ alias glog='git log --oneline --decorate --color --graph'
 # dir alias
 alias ..='cd ..'
 
+# equivalent of 'export TERM=screen-256color'
+alias tmux="tmux -2"
+
 # env variables
 export EDITOR=vim
