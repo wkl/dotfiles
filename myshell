@@ -11,6 +11,8 @@ alias gba='git branch -a'
 alias gl='git log --oneline --graph --pretty="format:%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset"'
 alias glo='git log --oneline --decorate --color'
 alias glog='git log --oneline --decorate --color --graph'
+alias gl='git pull'
+alias gp='git push'
 
 # dir alias
 alias ..='cd ..'
