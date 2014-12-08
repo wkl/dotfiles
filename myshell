@@ -28,3 +28,13 @@ bind "set show-all-if-ambiguous on"
 
 # AUTOJUMP
 AUTOJUMP_IGNORE_CASE=1
+
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+	alias ls='ls --color=auto'
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+	alias ls='ls -G'
+elif [[ "$OSTYPE" == "freebsd"* ]]; then
+	alias ls='ls -GI'
+elif [[ "$OSTYPE" == "cygwin" ]]; then
+	:
+fi
