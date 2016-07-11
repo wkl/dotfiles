@@ -9,10 +9,11 @@ alias gco='git checkout'
 alias gb='git branch'
 alias gba='git branch -a'
 alias glo='git log --oneline --graph --decorate --color --pretty="format:%C(yellow)%h%Cblue%d%Creset %s %C(cyan bold) %an, %ar%Creset"'
-#alias glo='git log --oneline --decorate --color'
 alias glog='git log --oneline --decorate --color --graph'
 alias gl='git pull'
 alias gp='git push'
+alias grb='git rebase'
+alias grs='git reset'
 
 # dir alias
 alias ..='cd ..'
@@ -22,6 +23,9 @@ alias tmux="tmux -2"
 
 # env variables
 export EDITOR=vim
+
+# bash history
+HISTSIZE=10000
 
 bind "set completion-ignore-case on"
 bind "set show-all-if-ambiguous on"
